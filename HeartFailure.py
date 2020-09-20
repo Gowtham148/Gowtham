@@ -104,24 +104,3 @@ new_ann.compile(optimizer='adam',loss='binary_crossentropy',metrics=['accuracy']
 
 new_ann.fit(x_train,y_train,epochs=50,batch_size=64)
 new_ann.evaluate(x_test,y_test,batch_size=64)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
